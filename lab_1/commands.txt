@@ -1,0 +1,15 @@
+[yao.740@cse-sl7 cse-4251]$ script commands.txt
+Script started, file is commands.txt
+[yao.740@cse-sl7 cse-4251]$ mkdir Lab1
+[yao.740@cse-sl7 cse-4251]$ cd Lab1/
+[yao.740@cse-sl7 Lab1]$ vim first.txt
+[yao.740@cse-sl7 Lab1]$ cp first.txt second.txt
+[yao.740@cse-sl7 Lab1]$ ls
+first.txt  second.txt
+[yao.740@cse-sl7 Lab1]$ pwd
+/home/yao.740/course/cse-4251/Lab1
+[yao.740@cse-sl7 Lab1]$ cd ..
+[yao.740@cse-sl7 cse-4251]$ rm -rf Lab1/
+[yao.740@cse-sl7 cse-4251]$ exit
+exit
+Script done, file is commands.txt

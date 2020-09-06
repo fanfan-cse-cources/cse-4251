@@ -1,0 +1,16 @@
+# Exercise 3
+
+## Question 1
+
+- `df` display free disk space (for drives)
+- `du` display disk usage statistics (for file/directories)
+
+## Question 2
+
+- `cmp` compare two files byte by byte
+- `diff` compare files line by line
+
+## Question 3
+
+- `cat` concatenate and print files
+- `wc` word, line, character, and byte count

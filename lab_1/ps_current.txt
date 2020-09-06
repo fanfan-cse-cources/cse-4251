@@ -1,0 +1,235 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0 194536  5064 ?        Ss   Jul16  12:03 /usr/lib/systemd/systemd --switched-root --system --deserialize 22
+root         2  0.0  0.0      0     0 ?        S    Jul16   0:01 [kthreadd]
+root         6  0.0  0.0      0     0 ?        S    Jul16   0:22 [ksoftirqd/0]
+root         7  0.0  0.0      0     0 ?        S    Jul16   0:07 [migration/0]
+root         8  0.0  0.0      0     0 ?        S    Jul16   0:00 [rcu_bh]
+root         9  0.0  0.0      0     0 ?        S    Jul16  45:29 [rcu_sched]
+root        10  0.0  0.0      0     0 ?        S<   Jul16   0:00 [lru-add-drain]
+root        11  0.0  0.0      0     0 ?        S    Jul16   0:13 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    Jul16   0:11 [watchdog/1]
+root        13  0.0  0.0      0     0 ?        S    Jul16   0:07 [migration/1]
+root        14  0.0  0.0      0     0 ?        S    Jul16   0:43 [ksoftirqd/1]
+root        16  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kworker/1:0H]
+root        17  0.0  0.0      0     0 ?        S    Jul16   0:11 [watchdog/2]
+root        18  0.0  0.0      0     0 ?        S    Jul16   0:07 [migration/2]
+root        19  0.0  0.0      0     0 ?        S    Jul16   0:28 [ksoftirqd/2]
+root        21  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kworker/2:0H]
+root        22  0.0  0.0      0     0 ?        S    Jul16   0:11 [watchdog/3]
+root        23  0.0  0.0      0     0 ?        S    Jul16   0:24 [migration/3]
+root        24  0.0  0.0      0     0 ?        S    Jul16   3:31 [ksoftirqd/3]
+root        28  0.0  0.0      0     0 ?        S    Jul16   0:00 [kdevtmpfs]
+root        29  0.0  0.0      0     0 ?        S<   Jul16   0:00 [netns]
+root        30  0.0  0.0      0     0 ?        S    Jul16   0:01 [khungtaskd]
+root        31  0.0  0.0      0     0 ?        S<   Jul16   0:00 [writeback]
+root        32  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kintegrityd]
+root        33  0.0  0.0      0     0 ?        S<   Jul16   0:00 [bioset]
+root        34  0.0  0.0      0     0 ?        S<   Jul16   0:00 [bioset]
+root        35  0.0  0.0      0     0 ?        S<   Jul16   0:00 [bioset]
+root        36  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kblockd]
+root        37  0.0  0.0      0     0 ?        S<   Jul16   0:00 [md]
+root        38  0.0  0.0      0     0 ?        S<   Jul16   0:00 [edac-poller]
+root        39  0.0  0.0      0     0 ?        S<   Jul16   0:00 [watchdogd]
+root        45  0.0  0.0      0     0 ?        S    Jul16  13:42 [kswapd0]
+root        46  0.0  0.0      0     0 ?        SN   Jul16   0:00 [ksmd]
+root        47  0.0  0.0      0     0 ?        SN   Jul16   0:17 [khugepaged]
+root        48  0.0  0.0      0     0 ?        S<   Jul16   0:00 [crypto]
+root        56  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kthrotld]
+root        58  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kmpath_rdacd]
+root        59  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kaluad]
+root        61  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kpsmoused]
+root        74  0.0  0.0      0     0 ?        S<   Jul16   0:00 [deferwq]
+root       112  0.0  0.0      0     0 ?        S    Jul16   0:18 [kauditd]
+root       289  0.0  0.0      0     0 ?        S<   Jul16   0:00 [hv_vmbus_con]
+root       291  0.0  0.0      0     0 ?        S<   Jul16   0:00 [hv_pri_chan]
+root       299  0.0  0.0      0     0 ?        S<   Jul16   0:00 [hv_sub_chan]
+root       313  0.0  0.0      0     0 ?        S    Jul16   0:00 [scsi_eh_0]
+root       314  0.0  0.0      0     0 ?        S<   Jul16   0:00 [scsi_tmf_0]
+root       315  0.0  0.0      0     0 ?        S<   Jul16   0:00 [storvsc_error_w]
+root       387  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kdmflush]
+root       388  0.0  0.0      0     0 ?        S<   Jul16   0:00 [bioset]
+root       397  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kdmflush]
+root       398  0.0  0.0      0     0 ?        S<   Jul16   0:00 [bioset]
+root       415  0.0  0.0      0     0 ?        S    Jul16   1:07 [jbd2/dm-0-8]
+root       416  0.0  0.0      0     0 ?        S<   Jul16   0:00 [ext4-rsv-conver]
+root       501  0.0  0.3 131020 52568 ?        Ss   Jul16   3:13 /usr/lib/systemd/systemd-journald
+root       522  0.0  0.0      0     0 ?        S<   Jul16   0:00 [rpciod]
+root       523  0.0  0.0      0     0 ?        S<   Jul16   0:00 [xprtiod]
+root       531  0.0  0.0 201104   712 ?        Ss   Jul16   0:00 /usr/sbin/lvmetad -f
+root       540  0.0  0.0  48940   764 ?        Ss   Jul16   0:05 /usr/lib/systemd/systemd-udevd
+root       652  0.0  0.0      0     0 ?        S    Jul16   1:01 [hv_balloon]
+root       668  0.0  0.0      0     0 ?        S    Jul16   0:00 [jbd2/sda2-8]
+root       669  0.0  0.0      0     0 ?        S<   Jul16   0:00 [ext4-rsv-conver]
+root       892  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kdmflush]
+root       893  0.0  0.0      0     0 ?        S<   Jul16   0:00 [bioset]
+root       895  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kdmflush]
+root       896  0.0  0.0      0     0 ?        S<   Jul16   0:00 [bioset]
+root       898  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kdmflush]
+root       899  0.0  0.0      0     0 ?        S<   Jul16   0:00 [bioset]
+root       900  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kdmflush]
+root       901  0.0  0.0      0     0 ?        S<   Jul16   0:00 [bioset]
+root       904  0.0  0.0      0     0 ?        S<   Jul16   0:00 [kdmflush]
+root       905  0.0  0.0      0     0 ?        S<   Jul16   0:00 [bioset]
+root       921  0.0  0.0      0     0 ?        S    Jul16   0:10 [jbd2/dm-2-8]
+root       922  0.0  0.0      0     0 ?        S<   Jul16   0:00 [ext4-rsv-conver]
+root       940  0.0  0.0      0     0 ?        S    Jul16   0:05 [jbd2/dm-4-8]
+root       941  0.0  0.0      0     0 ?        S<   Jul16   0:00 [ext4-rsv-conver]
+root       947  0.0  0.0      0     0 ?        S    Jul16   0:07 [jbd2/dm-3-8]
+root       948  0.0  0.0      0     0 ?        S<   Jul16   0:00 [ext4-rsv-conver]
+root       950  0.0  0.0      0     0 ?        S    Jul16   0:11 [jbd2/dm-5-8]
+root       951  0.0  0.0      0     0 ?        S<   Jul16   0:00 [ext4-rsv-conver]
+root       955  0.0  0.0      0     0 ?        S    Jul16   0:12 [jbd2/dm-6-8]
+root       956  0.0  0.0      0     0 ?        S<   Jul16   0:00 [ext4-rsv-conver]
+root       984  0.0  0.0  55532   508 ?        S<sl Jul16   1:48 /sbin/auditd
+root       986  0.0  0.0  84556   388 ?        S<sl Jul16   1:45 /sbin/audispd
+root       988  0.0  0.0  87764  7484 ?        S<   Jul16   3:28 /usr/sbin/sedispatch
+root      1030  0.0  0.0   4352   268 ?        Ss   Jul16   0:00 /usr/sbin/hypervvssd -n
+polkitd   1032  0.0  0.1 759744 25020 ?        Ssl  Jul16   3:43 /usr/lib/polkit-1/polkitd --no-debug
+dbus      1033  0.0  0.0  93324  5280 ?        Ssl  Jul16   7:21 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+rpc       1041  0.0  0.0  69280   560 ?        Ss   Jul16   0:04 /sbin/rpcbind -w
+root      1048  0.0  0.0  21536   508 ?        Ss   Jul16   3:11 /usr/sbin/irqbalance --foreground
+root      1063  0.0  0.0 228396  1512 ?        Ss   Jul16   0:00 /usr/sbin/abrtd -d -s
+root      1064  0.0  0.0 225860   572 ?        Ss   Jul16   0:13 /usr/bin/abrt-watch-log -F BUG: WARNING: at WARNING: CPU: INFO: possible recursive locking detected ernel BUG at list_del corruption list_add corruption do_IRQ: stack overflow: ear stack overflow (cur: eneral protection fault nable to handle kernel ouble fault: RTNL: assertion failed eek! page_mapcount(page) went negative! adness at NETDEV WATCHDOG ysctl table check failed : nobody cared IRQ handler type mismatch Kernel panic - not syncing: Machine Check Exception: Machine check events logged divide error: bounds: coprocessor segment overrun: invalid TSS: segment not present: invalid opcode: alignment check: stack segment: fpu exception: simd exception: iret exception: /var/log/messages -- /usr/bin/abrt-dump-oops -xtD
+chrony    1081  0.0  0.0 120160  1156 ?        S    Jul16   0:28 /usr/sbin/chronyd -u chrony
+root      1086  0.0  0.0 116052  1408 ?        S    Jul16   2:39 /bin/bash /usr/sbin/ksmtuned
+root      1094  0.0  0.0 275396  2252 ?        Ssl  Jul16   0:06 /usr/sbin/gssproxy -D
+root      1133  0.0  0.0 280300  4560 ?        Ss   Jul16   0:06 /usr/sbin/rpc.gssd
+root      1139  0.0  0.0 486816  3248 ?        Ssl  Jul16   0:57 /usr/sbin/NetworkManager --no-daemon
+root      1331  0.0  0.0  36968  1528 ?        Ss   Jul16   2:58 /usr/lib/systemd/systemd-logind
+root      1353  0.0  0.0 586440  1780 ?        Ssl  Jul16   5:33 /usr/bin/python2 -Es /usr/sbin/tuned -l -P
+root      1363  0.0  0.1 494976 22548 ?        Ssl  Jul16   3:30 /usr/sbin/rsyslogd -n
+root      1368  0.0  0.0  11348   484 ?        Ss   Jul16   0:44 /usr/sbin/hypervkvpd -n
+root      1370  0.1  0.0 967068 15864 ?        Ssl  Jul16  97:57 /usr/bin/python /usr/bin/goferd --foreground
+root      1375  0.0  0.1 710328 27676 ?        Ssl  Jul16  48:07 /usr/bin/python -s /usr/bin/fail2ban-server -xf start
+root      1383  0.0  0.0 115808   404 ?        Ss   Jul16   0:00 /usr/bin/rhsmcertd
+rpcuser   1477  0.0  0.0  46788   724 ?        Ss   Jul16   0:00 /usr/sbin/rpc.statd
+colord    1483  0.0  0.0 419568  1532 ?        Ssl  Jul16   0:00 /usr/libexec/colord
+root      1570  0.0  0.0      0     0 ?        S<   Jul16   0:00 [nfsiod]
+root      1592  0.0  0.0      0     0 ?        S<   Jul16   1:46 [kworker/1:1H]
+root      1602  0.0  0.0      0     0 ?        S    Jul16   0:00 [lockd]
+swiagent  1618  0.0  0.0 2682336 11800 ?       Ssl  Jul16  52:11 /opt/SolarWinds/Agent/bin/swiagent /detach pidfile=/opt/SolarWinds/Agent/bin/swiagentd.pid
+swiagent  1670  0.1  0.0 1072144 7696 ?        Sl   Jul16 110:05 /opt/SolarWinds/Agent/bin/Plugins/JobEngine/SolarWinds.Agent.JobEngine.Plugin ep=EWAF4E60A63F445435886D632D847931FC2 id=00df61b9-f17f-4504-aa69-f09ae100b9e8.EWWP ipc=ipc_mq_v1
+root      1830  0.0  0.0  91784   520 ?        Ss   Jul16   0:27 /usr/libexec/postfix/master -w
+postfix   1843  0.0  0.0 102228   664 ?        S    Jul16   0:11 qmgr -l -t unix -u
+root      2177  0.0  0.0 110204   240 tty1     Ss+  Jul16   0:00 /sbin/agetty --noclear tty1 linux
+root      2179  0.0  0.0 126380   600 ?        Ss   Jul16   0:36 /usr/sbin/crond -n
+root      8016  0.2  0.0      0     0 ?        S<   09:37   1:07 [kworker/3:2H]
+root     11616  0.0  0.0      0     0 ?        S<   Jul16   0:00 [hnfs]
+root     12326  0.4  0.0  15996   600 ?        Sl   Jul16 284:12 /opt/Symantec/symantec_antivirus/symcfgd -l info
+root     12358  8.4  1.7 307800 285812 ?       Sl   Jul16 5855:52 /opt/Symantec/symantec_antivirus/rtvscand -l info
+root     12401  0.0  0.0 143288 11852 ?        Sl   Jul16  35:06 /opt/Symantec/symantec_antivirus/smcd -l info
+root     16973  0.0  0.0      0     0 ?        S    15:40   0:00 [kworker/0:2]
+rtkit    21245  0.0  0.0 198808  3408 ?        SNsl Aug23   0:09 /usr/libexec/rtkit-daemon
+root     21352  0.0  0.0 467484  2808 ?        Ssl  Aug23   0:44 /usr/libexec/udisks2/udisksd
+root     22155  0.0  0.0 423248  5488 ?        Ssl  Aug23   1:03 /usr/libexec/packagekitd
+root     27958  0.0  0.0      0     0 ?        S<   Aug30   0:13 [kworker/0:0H]
+root     31544  0.0  0.0 179868  5868 ?        Ss   16:09   0:00 sshd: mao.453 [priv]
+mao.453  31607  0.0  0.0 190032  2732 ?        SN   16:09   0:00 sshd: mao.453@pts/3
+mao.453  31608  0.0  0.0 125840  2128 pts/3    SNs+ 16:09   0:00 -bash
+root     34274  0.0  0.0 200824  2236 ?        Ss   Aug18   0:00 /usr/sbin/cupsd -f
+root     34303  0.0  0.0      0     0 ?        S    16:25   0:00 [kworker/3:2]
+root     36404  0.0  0.0 190024  5972 ?        Ss   16:33   0:00 sshd: yao.740 [priv]
+yao.740  36446  0.0  0.0 190024  2556 ?        SN   16:33   0:00 sshd: yao.740@pts/0
+yao.740  36447  0.0  0.0 125956  2228 pts/0    SNs  16:33   0:00 -bash
+root     40636  0.0  0.0 240180  4096 ?        Ssl  Aug24   5:29 /opt/bomgar/bomgar-scc -pinned
+root     41113  0.0  0.0      0     0 ?        S<   Aug04   0:46 [kworker/0:2H]
+root     44029  0.0  0.0      0     0 ?        S    16:45   0:00 [kworker/2:2]
+root     44636  0.0  0.0 179868  5868 ?        Ss   16:46   0:00 sshd: yang.4581 [priv]
+yang.45+ 44661  0.0  0.0 190032  2780 ?        SN   16:46   0:00 sshd: yang.4581@pts/4
+yang.45+ 44662  0.0  0.0 125972  2212 pts/4    SNs+ 16:46   0:00 -bash
+yao.740  45302  0.0  0.0 114292   808 pts/0    SN+  16:47   0:00 script workingEnvironment_script.txt
+yao.740  45304  0.0  0.0 114300   392 pts/0    SN+  16:47   0:00 script workingEnvironment_script.txt
+yao.740  45305  0.0  0.0 125840  2012 pts/6    SNs  16:47   0:00 bash -i
+root     48718  0.0  0.0 190024  5988 ?        Ss   16:53   0:00 sshd: yao.740 [priv]
+yao.740  48731  0.0  0.0 190024  2592 ?        SN   16:53   0:00 sshd: yao.740@pts/7
+yao.740  48732  0.0  0.0 125840  2184 pts/7    SNs  16:53   0:00 -bash
+root     48900  0.0  0.0      0     0 ?        S    16:53   0:00 [kworker/u128:2]
+root     49215  0.0  0.0 179868  5832 ?        Ss   16:54   0:00 sshd: lapolt.3 [priv]
+root     49368  0.0  0.0      0     0 ?        S    16:55   0:00 [kworker/2:1]
+lapolt.3 49370  0.4  0.0 190168  2944 ?        SN   16:55   0:06 sshd: lapolt.3@notty
+lapolt.3 49371  0.0  0.0  62540 14460 ?        SNs  16:55   0:00 /usr/bin/perl /usr/bin/fastx-protocol
+root     49403  0.0  0.0 257460  5204 ?        Ss   16:55   0:00 /usr/sbin/sssd -i --logger=files
+root     49404  0.1  0.1 550212 20792 ?        S    16:55   0:01 /usr/libexec/sssd/sssd_be --domain coeit.osu.edu --uid 0 --gid 0 --logger=files
+root     49405  0.0  0.1 277724 30540 ?        S    16:55   0:00 /usr/libexec/sssd/sssd_nss --uid 0 --gid 0 --logger=files
+root     49406  0.0  0.0 257528  5276 ?        S    16:55   0:00 /usr/libexec/sssd/sssd_pam --uid 0 --gid 0 --logger=files
+lapolt.3 49652  0.0  0.0  65728 12564 ?        SNs  16:55   0:00 FastX monitor 101
+lapolt.3 49653  5.2  0.7 1524852 120204 ?      SNl  16:55   1:15 Xorg :101 -logfile /home/lapolt.3/.fastx_server/cse-sl7.coeit.osu.edu/sessions/FX3-6be25e8d78ea1cfb3cb30e1b350d75f3/xorg.log -config /home/lapolt.3/.fastx_server/cse-sl7.coeit.osu.edu/sessions/FX3-6be25e8d78ea1cfb3cb30e1b350d75f3/xorg.conf -r -auth /home/lapolt.3/.fastx_server/cse-sl7.coeit.osu.edu/sessions/FX3-6be25e8d78ea1cfb3cb30e1b350d75f3/authority -noreset -listen tcp
+lapolt.3 49665  0.0  0.1 553620 27980 ?        SNl  16:55   0:00 mate-session
+lapolt.3 49670  0.0  0.0  71356  1180 ?        SN   16:55   0:00 dbus-launch --exit-with-session mate-session
+lapolt.3 49673  0.0  0.0  87164  2180 ?        SNsl 16:55   0:00 /usr/bin/dbus-daemon --fork --print-pid 6 --print-address 8 --session
+lapolt.3 49685  0.0  0.0 370428  7004 ?        SNl  16:55   0:00 /usr/libexec/at-spi-bus-launcher
+lapolt.3 49701  0.0  0.0 285040  3896 ?        SNl  16:55   0:00 /usr/libexec/gvfsd
+lapolt.3 49706  0.0  0.0 434604  4168 ?        SNl  16:55   0:00 /usr/libexec/gvfsd-fuse /run/user/802086508/gvfs -f -o big_writes
+lapolt.3 49715  0.0  0.0  86660  2360 ?        SNl  16:55   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+lapolt.3 49722  0.0  0.0 237424  4232 ?        SNl  16:55   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+lapolt.3 49736  0.0  0.0 187508  2908 ?        SNl  16:55   0:00 /usr/libexec/dconf-service
+lapolt.3 49743  0.0  0.0 213728  3788 ?        SNl  16:55   0:00 gnome-keyring-daemon --start
+lapolt.3 49749  0.0  0.1 1375656 20016 ?       SNl  16:55   0:00 /usr/libexec/mate-settings-daemon
+lapolt.3 49755  0.0  0.1 444400 18300 ?        SNl  16:55   0:00 marco
+lapolt.3 49763  0.0  0.0 574776  4116 ?        SNl  16:55   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+lapolt.3 49764  0.0  0.1 607620 18328 ?        SNl  16:55   0:00 mate-panel
+lapolt.3 49772  0.0  0.1 842664 26292 ?        SNl  16:55   0:01 caja
+lapolt.3 49780  0.0  0.1 477848 18324 ?        SNl  16:55   0:00 /usr/libexec/mate-panel/wnck-applet
+lapolt.3 49782  0.0  0.0 187080  8440 ?        SN   16:55   0:00 rhsm-icon
+lapolt.3 49785  0.0  0.0 406580 14632 ?        SNl  16:55   0:00 abrt-applet
+lapolt.3 49786  0.0  0.1 550236 24580 ?        SNl  16:55   0:00 nm-applet
+lapolt.3 49788  0.0  0.0 332424  8900 ?        SNl  16:55   0:00 /usr/libexec/polkit-mate-authentication-agent-1
+lapolt.3 49793  0.0  0.1 297856 16740 ?        SNl  16:55   0:00 /usr/bin/python /usr/share/system-config-printer/applet.py
+lapolt.3 49796  0.0  0.0 332020  8256 ?        SNl  16:55   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+lapolt.3 49802  0.0  0.0  88404  3064 ?        SN   16:55   0:00 /usr/libexec/gconfd-2
+lapolt.3 49817  0.0  0.0 374848  4412 ?        SNl  16:55   0:00 /usr/libexec/gvfs-afc-volume-monitor
+lapolt.3 49824  0.0  0.0 267988  3040 ?        SNl  16:55   0:00 /usr/libexec/gvfs-goa-volume-monitor
+lapolt.3 49829  0.0  0.1 792024 27704 ?        SNl  16:55   0:00 /usr/libexec/goa-daemon
+lapolt.3 49830  0.0  0.0 377856  5344 ?        SNl  16:55   0:00 /usr/libexec/gvfsd-trash --spawner :1.2 /org/gtk/gvfs/exec_spaw/0
+lapolt.3 49842  0.0  0.0 442428 11604 ?        SNl  16:55   0:00 /usr/libexec/goa-identity-service
+lapolt.3 49849  0.0  0.0 427860 10716 ?        SNl  16:55   0:00 /usr/libexec/mission-control-5
+lapolt.3 49856  0.0  0.0 287876  3216 ?        SNl  16:55   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+lapolt.3 49861  0.0  0.0 296964  3444 ?        SNl  16:55   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+lapolt.3 49870  0.0  0.1 530512 19532 ?        SNl  16:55   0:00 /usr/libexec/mate-panel/clock-applet
+lapolt.3 49871  0.0  0.0 377356 10568 ?        SNl  16:55   0:00 /usr/libexec/mate-panel/notification-area-applet
+root     50040  0.0  0.0      0     0 ?        S    16:55   0:00 [kworker/u128:3]
+root     51365  0.0  0.0      0     0 ?        S    17:01   0:00 [kworker/1:0]
+root     51369  0.0  0.0      0     0 ?        S    17:01   0:00 [kworker/0:1]
+root     51640  0.0  0.0      0     0 ?        S<   Aug31   0:26 [kworker/2:2H]
+lapolt.3 52302  0.0  0.0  68500 15692 ?        SNs  17:04   0:00 FastX monitor 102
+lapolt.3 52303  6.1  0.7 1516272 126736 ?      SNl  17:04   0:56 Xorg :102 -logfile /home/lapolt.3/.fastx_server/cse-sl7.coeit.osu.edu/sessions/FX3-11807f0a0c1740ef3fa1116e47b250f6/xorg.log -config /home/lapolt.3/.fastx_server/cse-sl7.coeit.osu.edu/sessions/FX3-11807f0a0c1740ef3fa1116e47b250f6/xorg.conf -r -auth /home/lapolt.3/.fastx_server/cse-sl7.coeit.osu.edu/sessions/FX3-11807f0a0c1740ef3fa1116e47b250f6/authority -noreset -listen tcp
+lapolt.3 52315  0.0  0.0  70612  3848 ?        SN   17:04   0:00 xterm -ls
+lapolt.3 52317  0.0  0.0 125840  2124 pts/1    SNs+ 17:04   0:00 -bash
+lapolt.3 52841  0.0  0.0 214164  3252 ?        SNl  17:05   0:00 /usr/libexec/gvfsd-metadata
+lapolt.3 53366  0.0  0.2 862552 45736 pts/1    SNl  17:07   0:00 gedit lab.c
+lapolt.3 53375  0.0  0.0  71356  1176 pts/1    SN   17:07   0:00 dbus-launch --autolaunch=0c662fb446cc448ba193ff29fb77ee3e --binary-syntax --close-stderr
+lapolt.3 53376  0.0  0.0  86792  1780 ?        SNsl 17:07   0:00 /usr/bin/dbus-daemon --fork --print-pid 6 --print-address 8 --session
+lapolt.3 53384  0.0  0.0 370432  7000 ?        SNl  17:07   0:00 /usr/libexec/at-spi-bus-launcher
+lapolt.3 53388  0.0  0.0 388620  3736 ?        SNl  17:07   0:00 /usr/libexec/gvfsd
+lapolt.3 53398  0.0  0.0  86660  2336 ?        SNl  17:07   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+lapolt.3 53401  0.0  0.0 237428  4148 ?        SNl  17:07   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+lapolt.3 53403  0.0  0.0 557640  5712 ?        SNl  17:07   0:00 /usr/libexec/xdg-desktop-portal
+lapolt.3 53414  0.0  0.0 364696  4684 ?        SNl  17:07   0:00 /usr/libexec/xdg-permission-store
+lapolt.3 53420  0.0  0.0 653576  9260 ?        SNl  17:07   0:00 /usr/libexec/xdg-desktop-portal-gtk
+lapolt.3 53429  0.0  0.0 187520  2904 ?        SNl  17:07   0:00 /usr/libexec/dconf-service
+root     53577  0.0  0.0 179868  5832 ?        Ss   17:08   0:00 sshd: yang.4581 [priv]
+yang.45+ 53584  0.0  0.0 190032  2624 ?        SN   17:08   0:00 sshd: yang.4581@notty
+yang.45+ 53585  0.0  0.0  88808  2888 ?        SNs  17:08   0:00 /usr/libexec/openssh/sftp-server
+root     54090  0.0  0.0 602108  3900 ?        Ssl  Aug28   0:30 /usr/libexec/fwupd/fwupd
+postfix  54358  0.0  0.0 102052  4016 ?        S    17:10   0:00 pickup -l -t unix -u
+root     54975  0.0  0.0      0     0 ?        S    17:13   0:00 [kworker/1:2]
+root     55050  0.0  0.0 179868  5864 ?        Ss   17:14   0:00 sshd: zins.14 [priv]
+zins.14  55068  0.0  0.0 190032  2736 ?        SN   17:14   0:00 sshd: zins.14@pts/2
+zins.14  55069  0.0  0.0 125840  2120 pts/2    SNs+ 17:14   0:00 -bash
+root     55221  0.0  0.0      0     0 ?        S    17:15   0:00 [kworker/3:0]
+root     55271  0.0  0.0      0     0 ?        S    17:15   0:00 [kworker/u128:0]
+lapolt.3 55587 14.8  1.7 2995564 284368 ?      SNl  17:17   0:20 /usr/lib64/firefox/firefox
+yao.740  55696  0.0  0.0 119932  2452 pts/7    SN+  17:18   0:00 man ps
+yao.740  55709  0.0  0.0 110436  1208 pts/7    SN+  17:18   0:00 less -s
+root     56030  0.2  0.0      0     0 ?        S    17:19   0:00 [kworker/u128:1]
+root     56035  0.2  0.0      0     0 ?        S    17:19   0:00 [kworker/u128:4]
+lapolt.3 56057  1.2  0.4 2577368 70076 ?       SNl  17:19   0:00 /usr/lib64/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 1 -prefMapSize 184089 -parentBuildID 20200529103754 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appdir /usr/lib64/firefox/browser 55587 tab
+lapolt.3 56081 16.3  0.9 2870364 149080 ?      SNl  17:19   0:08 /usr/lib64/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 1 -prefMapSize 184089 -parentBuildID 20200529103754 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appdir /usr/lib64/firefox/browser 55587 tab
+lapolt.3 56317  9.3  0.7 2656000 119800 ?      SNl  17:19   0:04 /usr/lib64/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 9150 -prefMapSize 184089 -parentBuildID 20200529103754 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appdir /usr/lib64/firefox/browser 55587 tab
+lapolt.3 56983  0.4  0.2 2535704 43932 ?       SNl  17:19   0:00 /usr/lib64/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 9494 -prefMapSize 184089 -parentBuildID 20200529103754 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appdir /usr/lib64/firefox/browser 55587 tab
+root     57438  0.0  0.0 108052   356 ?        S    17:19   0:00 sleep 60
+yao.740  57616  0.0  0.0 165772  1924 pts/6    RN+  17:19   0:00 ps aux
+root     58943  0.0  0.0 112924  3008 ?        Ss   Aug28   0:08 /usr/sbin/sshd -D
+root     59285  0.0  0.0      0     0 ?        S    14:55   0:00 [kworker/3:1]
+root     59842  0.0  0.0 422172  2716 ?        Ssl  Aug27   0:06 /usr/libexec/upowerd
+root     63366  0.2  0.0      0     0 ?        S<   07:52   1:35 [kworker/3:1H]

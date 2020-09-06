@@ -1,0 +1,25 @@
+# Exercise 2
+
+## Question 1
+
+- `bash` is my shell for stdlinux
+- `$` character is the default prompt
+- `echo` is write arguments to the standard output
+- `SHELL` is command interpreter
+
+## Question 2
+
+- `/home/yao.740` is my home directory and default path
+- `/usr/local/bin:/usr/bin:/bin:.:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin` is the value for PATH variable
+- `yao.740` is my username and login name
+
+## Question 3
+
+- OS version: Red Hat Enterprise Linux Server 7.8 (Maipo)
+- Kernel Release: 3.10.0-1127.10.1.el7.x86_64
+- Processor type: x86_64
+
+## Question 4
+
+- See `ps_current.txt`
+- User, Process ID, CPU useage, Memory useage, Virtual memory size, Resident set size, TTY, Status, Start date, Time for running, Command

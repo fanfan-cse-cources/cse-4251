@@ -1,0 +1,54 @@
+[yao.740@cse-sl7 cse-4251]$ script organizeFiles_script.txt
+Script started, file is organizeFiles_script.txt
+[yao.740@cse-sl7 cse-4251]$ df -h
+Filesystem                                Size  Used Avail Use% Mounted on
+devtmpfs                                  7.8G     0  7.8G   0% /dev
+tmpfs                                     7.8G   26M  7.8G   1% /dev/shm
+tmpfs                                     7.8G  226M  7.6G   3% /run
+tmpfs                                     7.8G     0  7.8G   0% /sys/fs/cgroup
+/dev/mapper/rhel-root                      30G   11G   17G  40% /
+/dev/sda2                                 488M  152M  301M  34% /boot
+/dev/sda1                                 512M  9.9M  502M   2% /boot/efi
+/dev/mapper/rhel-tmp                      4.8G   24M  4.6G   1% /tmp
+/dev/mapper/rhel-var                      9.8G  641M  8.6G   7% /var
+/dev/mapper/rhel-var_tmp                  4.8G   21M  4.6G   1% /var/tmp
+/dev/mapper/rhel-var_log                  9.8G  489M  8.8G   6% /var/log
+/dev/mapper/rhel-var_log_audit            2.0G  974M  861M  54% /var/log/audit
+naotvs1socc.coeit.osu.edu:/nfs_opt_local  475G   12G  464G   3% /opt/local
+naotvs1socc.coeit.osu.edu:/nfs_home_2      25T   11T   15T  41% /home
+naotvs1socc.coeit.osu.edu:/nfs_share       10G  228M  9.8G   3% /share
+tmpfs                                     1.6G     0  1.6G   0% /run/user/802100778
+tmpfs                                     1.6G  140K  1.6G   1% /run/user/802086508
+tmpfs                                     1.6G  104K  1.6G   1% /run/user/802128776
+tmpfs                                     1.6G   72K  1.6G   1% /run/user/802086062
+tmpfs                                     1.6G     0  1.6G   0% /run/user/802132509
+[yao.740@cse-sl7 cse-4251]$ du -a
+28    ./ps_current.txt
+0    ./organizeFiles_script.txt
+4    ./workingEnvironment.txt
+0    ./hello_script.sh
+4    ./commands.txt
+4    ./workingEnvironment_script.txt
+44    .
+[yao.740@cse-sl7 cse-4251]$ echo "123" > file_1
+[yao.740@cse-sl7 cse-4251]$ echo "1b3" > file_2
+[yao.740@cse-sl7 cse-4251]$ cmp file_1 file_2
+file_1 file_2 differ: byte 2, line 1
+[yao.740@cse-sl7 cse-4251]$ echo "1b3" > file_2
+[yao.740@cse-sl7 cse-4251]$ diff file_1 file_2
+1c1
+< 123
+---
+> 1b3
+[yao.740@cse-sl7 cse-4251]$ cat file_1 file_2
+123
+1b3
+[yao.740@cse-sl7 cse-4251]$ wc file_1 file_2
+1 1 4 file_1
+1 1 4 file_2
+2 2 8 total
+[yao.740@cse-sl7 cse-4251]$ rm -rf file_*
+[yao.740@cse-sl7 cse-4251]$ vi organizeFiles.txt
+[yao.740@cse-sl7 cse-4251]$ exit
+exit
+Script done, file is organizeFiles_script.txt

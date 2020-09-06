@@ -1,0 +1,42 @@
+[yao.740@cse-sl7 cse-4251]$ script workingEnvironment_script.txt
+Script started, file is workingEnvironment_script.txt
+[yao.740@cse-sl7 cse-4251]$ vi workingEnvironment.txt
+[yao.740@cse-sl7 cse-4251]$ echo $SHELL
+/bin/bash
+[yao.740@cse-sl7 cse-4251]$ vi workingEnvironment.txt
+[yao.740@cse-sl7 cse-4251]$ echo $HOME
+/home/yao.740
+[yao.740@cse-sl7 cse-4251]$ echo $USER
+yao.740
+[yao.740@cse-sl7 cse-4251]$ whoami
+yao.740
+[yao.740@cse-sl7 cse-4251]$ echo ~
+/home/yao.740
+[yao.740@cse-sl7 cse-4251]$ uname -a
+Linux cse-sl7.coeit.osu.edu 3.10.0-1127.10.1.el7.x86_64 #1 SMP Tue May 26 15:05:43 EDT 2020 x86_64 x86_64 x86_64 GNU/Linux
+[yao.740@cse-sl7 cse-4251]$ cat /etc/os-release
+NAME="Red Hat Enterprise Linux Server"
+VERSION="7.8 (Maipo)"
+ID="rhel"
+ID_LIKE="fedora"
+VARIANT="Server"
+VARIANT_ID="server"
+VERSION_ID="7.8"
+PRETTY_NAME="Red Hat Enterprise Linux"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:redhat:enterprise_linux:7.8:GA:server"
+HOME_URL="https://www.redhat.com/"
+BUG_REPORT_URL="https://bugzilla.redhat.com/"
+
+REDHAT_BUGZILLA_PRODUCT="Red Hat Enterprise Linux 7"
+REDHAT_BUGZILLA_PRODUCT_VERSION=7.8
+REDHAT_SUPPORT_PRODUCT="Red Hat Enterprise Linux"
+REDHAT_SUPPORT_PRODUCT_VERSION="7.8"
+[yao.740@cse-sl7 cse-4251]$ ps aux > ps_current.txt
+[yao.740@cse-sl7 cse-4251]$ vi hello_script.sh
+[yao.740@cse-sl7 cse-4251]$ chmod 700 hello_script.sh
+[yao.740@cse-sl7 cse-4251]$ ./hello_script.sh
+hello world
+[yao.740@cse-sl7 cse-4251]$ exit
+exit
+Script done, file is workingEnvironment_script.txt
