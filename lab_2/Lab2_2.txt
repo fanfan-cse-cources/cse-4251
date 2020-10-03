@@ -1,0 +1,11 @@
+Script started on Mon 05 Oct 2020 11:32:32 AM EDT
+]0;yao.740@cse-sl1:~/course/cse-4251[?1034h[yao.740@cse-sl1 cse-4251]$ grep -i "^[it]" peopleonEarth.txt
+[01;31m[KI[m[Kt was written during the 1970s that 75% of the people who had ever been born were alive at that moment. This was grossly false.
+[01;31m[Kt[m[Ko modern times, it has been estimated that a total of approximately 106 billion people have been born since the dawn of the human
+[01;31m[KT[m[Kop 20 Largest Countries by Population today (live)
+]0;yao.740@cse-sl1:~/course/cse-4251[yao.740@cse-sl1 cse-4251]$ grep -w "million" peopleonEarth.txt
+(and not from 700,000 B.C. when the ancestors of Homo sapiens appeared, or several [01;31m[Kmillion[m[K years ago when hominids were present),
+]0;yao.740@cse-sl1:~/course/cse-4251[yao.740@cse-sl1 cse-4251]$ exit
+exit
+
+Script done on Mon 05 Oct 2020 11:32:34 AM EDT

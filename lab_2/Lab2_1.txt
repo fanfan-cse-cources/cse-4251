@@ -1,0 +1,218 @@
+# Lab 2-1
+
+1. `grep 'hom.*ds' p*` search words match with regular expression `'hom.*ds'` from files who match with regular expression `p*`.
+	- `'hom.*ds'` matches any string who have started from "hom" and ended as "ds", anything can be inclued between except line breaks.
+	- `p*` matches any string started from character `p`.
+
+2. `grep "70" peopleonEarth.txt`
+
+```
+$ grep "70" peopleonEarth.txt
+It was written during the 1970s that 75% of the people who had ever been born were alive at that moment. This was grossly false.
+(and not from 700,000 B.C. when the ancestors of Homo sapiens appeared, or several million years ago when hominids were present),
+```
+
+3. `grep "^[tT]" peopleonEarth.txt`
+
+```
+to modern times, it has been estimated that a total of approximately 106 billion people have been born since the dawn of the human
+Top 20 Largest Countries by Population today (live)
+```
+
+4. `grep "4$" peopleonEarth.txt`
+
+```
+3 United States 324,848,474
+6 Pakistan 187,829,474
+12 Philippines 101,633,384
+```
+
+5. `grep "people" peopleonEarth.txt`
+
+```
+How many people have ever lived on earth?
+It was written during the 1970s that 75% of the people who had ever been born were alive at that moment. This was grossly false.
+to modern times, it has been estimated that a total of approximately 106 billion people have been born since the dawn of the human
+species, making the population currently alive roughly 6% of all people who have ever lived on planet Earth
+```
+
+6. `grep "4" peopleonEarth.txt`
+
+```
+Others have estimated the number of human beings who have ever lived to be anywhere from 45 billion to 125 billion, with most
+1 China 1,401,121,647
+2 India 1,281,110,640
+3 United States 324,848,474
+4 Indonesia 255,457,959
+6 Pakistan 187,829,474
+9 Russia 142,143,395
+11 Mexico 125,116,488
+12 Philippines 101,633,384
+13 Ethiopia 98,693,409
+14 Vietnam 93,325,835
+15 Egypt 84,586,172
+18 Turkey 76,649,256
+19 Congo 71,042,049
+```
+
+7. `grep "4," peopleonEarth.txt`
+
+```
+3 United States 324,848,474
+15 Egypt 84,586,172
+```
+
+8. `grep ",4" peopleonEarth.txt`
+
+```
+1 China 1,401,121,647
+3 United States 324,848,474
+4 Indonesia 255,457,959
+6 Pakistan 187,829,474
+11 Mexico 125,116,488
+13 Ethiopia 98,693,409
+```
+
+9. `grep ",4." peopleonEarth.txt`
+
+```
+1 China 1,401,121,647
+3 United States 324,848,474
+4 Indonesia 255,457,959
+6 Pakistan 187,829,474
+11 Mexico 125,116,488
+13 Ethiopia 98,693,409
+```
+
+10. `grep "^[IT]" peopleonEarth.txt`
+
+```
+It was written during the 1970s that 75% of the people who had ever been born were alive at that moment. This was grossly false.
+Top 20 Largest Countries by Population today (live
+```
+
+11. `grep "\D" peopleonEarth.txt`
+
+```
+How many people have ever lived on earth?
+It was written during the 1970s that 75% of the people who had ever been born were alive at that moment. This was grossly false.
+Assuming that we start counting from about 50,000 B.C., the time when modern Homo sapiens appeared on the earth
+(and not from 700,000 B.C. when the ancestors of Homo sapiens appeared, or several million years ago when hominids were present),
+ taking into account that all population data are a rough estimate, and assuming a constant growth rate applied to each period up
+to modern times, it has been estimated that a total of approximately 106 billion people have been born since the dawn of the human
+species, making the population currently alive roughly 6% of all people who have ever lived on planet Earth.
+Others have estimated the number of human beings who have ever lived to be anywhere from 45 billion to 125 billion, with most
+estimates falling into the range of 90 to 110 billion humans.
+Top 20 Largest Countries by Population today (live)
+1 China 1,401,121,647
+2 India 1,281,110,640
+3 United States 324,848,474
+4 Indonesia 255,457,959
+5 Brazil 203,529,872
+6 Pakistan 187,829,474
+7 Nigeria 182,985,378
+8 Bangladesh 160,235,085
+9 Russia 142,143,395
+10 Japan 126,872,277
+11 Mexico 125,116,488
+12 Philippines 101,633,384
+13 Ethiopia 98,693,409
+14 Vietnam 93,325,835
+15 Egypt 84,586,172
+16 Germany 82,586,271
+17 Iran 79,390,019
+18 Turkey 76,649,256
+19 Congo 71,042,049
+20 Thailand
+```
+
+12. `grep " [A-Z]" peopleonEarth.txt`
+
+```
+It was written during the 1970s that 75% of the people who had ever been born were alive at that moment. This was grossly false.
+Assuming that we start counting from about 50,000 B.C., the time when modern Homo sapiens appeared on the earth
+(and not from 700,000 B.C. when the ancestors of Homo sapiens appeared, or several million years ago when hominids were present),
+species, making the population currently alive roughly 6% of all people who have ever lived on planet Earth.
+Top 20 Largest Countries by Population today (live)
+1 China 1,401,121,647
+2 India 1,281,110,640
+3 United States 324,848,474
+4 Indonesia 255,457,959
+5 Brazil 203,529,872
+6 Pakistan 187,829,474
+7 Nigeria 182,985,378
+8 Bangladesh 160,235,085
+9 Russia 142,143,395
+10 Japan 126,872,277
+11 Mexico 125,116,488
+12 Philippines 101,633,384
+13 Ethiopia 98,693,409
+14 Vietnam 93,325,835
+15 Egypt 84,586,172
+16 Germany 82,586,271
+17 Iran 79,390,019
+18 Turkey 76,649,256
+19 Congo 71,042,049
+20 Thailand
+```
+
+13. `grep "s\{1,\} " peopleonEarth.txt`
+
+```
+It was written during the 1970s that 75% of the people who had ever been born were alive at that moment. This was grossly false.
+Assuming that we start counting from about 50,000 B.C., the time when modern Homo sapiens appeared on the earth
+(and not from 700,000 B.C. when the ancestors of Homo sapiens appeared, or several million years ago when hominids were present),
+to modern times, it has been estimated that a total of approximately 106 billion people have been born since the dawn of the humaning
+Others have estimated the number of human beings who have ever lived to be anywhere from 45 billion to 125 billion, with most
+estimates falling into the range of 90 to 110 billion humans.
+Top 20 Largest Countries by Population today (live)
+3 United States 324,848,474
+12 Philippines 101,633,384
+```
+
+14. `grep "[a-z]\{9,\}" peopleonEarth.txt`
+
+```
+(and not from 700,000 B.C. when the ancestors of Homo sapiens appeared, or several million years ago when hominids were present),
+ taking into account that all population data are a rough estimate, and assuming a constant growth rate applied to each period up
+to modern times, it has been estimated that a total of approximately 106 billion people have been born since the dawn of the humaning
+species, making the population currently alive roughly 6% of all people who have ever lived on planet Earth.
+Others have estimated the number of human beings who have ever lived to be anywhere from 45 billion to 125 billion, with most
+estimates falling into the range of 90 to 110 billion humans.
+➜  lab_2 git:(master) ✗ grep "[a-z]\{9,\}" peopleonEarth.txt
+(and not from 700,000 B.C. when the ancestors of Homo sapiens appeared, or several million years ago when hominids were present),
+ taking into account that all population data are a rough estimate, and assuming a constant growth rate applied to each period up
+to modern times, it has been estimated that a total of approximately 106 billion people have been born since the dawn of the humaning
+species, making the population currently alive roughly 6% of all people who have ever lived on planet Earth.
+Others have estimated the number of human beings who have ever lived to be anywhere from 45 billion to 125 billion, with most
+estimates falling into the range of 90 to 110 billion humans.
+Top 20 Largest Countries by Population today (live)
+8 Bangladesh 160,235,085
+12 Philippines 101,633,384
+```
+
+15. `grep "\bhuman[a-zA-Z0-9]*\b" peopleonEarth.txt`
+
+```
+to modern times, it has been estimated that a total of approximately 106 billion people have been born since the dawn of the human
+Others have estimated the number of human beings who have ever lived to be anywhere from 45 billion to 125 billion, with most
+estimates falling into the range of 90 to 110 billion humans.
+```
+
+16. `grep "\bmillion\b" peopleonEarth.txt`
+
+```
+(and not from 700,000 B.C. when the ancestors of Homo sapiens appeared, or several million years ago when hominids were present),
+```
+
+17. `grep "\b[a-z][a-zA-Z0-9]*t\b" peopleonEarth.txt`
+
+```
+It was written during the 1970s that 75% of the people who had ever been born were alive at that moment. This was grossly false.
+Assuming that we start counting from about 50,000 B.C., the time when modern Homo sapiens appeared on the earth
+(and not from 700,000 B.C. when the ancestors of Homo sapiens appeared, or several million years ago when hominids were present),
+ taking into account that all population data are a rough estimate, and assuming a constant growth rate applied to each period up
+to modern times, it has been estimated that a total of approximately 106 billion people have been born since the dawn of the human
+species, making the population currently alive roughly 6% of all people who have ever lived on planet Earth.
+Others have estimated the number of human beings who have ever lived to be anywhere from 45 billion to 125 billion, with most
+```
