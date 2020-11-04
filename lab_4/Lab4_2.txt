@@ -1,0 +1,67 @@
+Script started on 2020-11-14 22:38:33-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;exit\]777;precmd\]0;fanfannnmn@fedora:/mnt/hgfs/current/CSE-4251/lab_4\]7;file://fedora/mnt/hgfs/current/CSE-4251/lab_4\[fanfannnmn@localhost lab_4]$ ./dirtree_explorer.sh ~/Downloads/
+]777;preexec\The current directory is: /home/fanfannnmn/Downloads/
+1.Enter a directory name
+2.Print the directory tree on terminal
+3.Print the directory tree to a file
+4.Exit
+Select: 2
+|
+|------hello_0
+|------hello_1
+|------hello_2
+|------hello_3
+|------hello_4
+|------hello_5
+|------hello_6
+|------hello_7
+|------hello_8
+|------hello_9
+
+1.Enter a directory name
+2.Print the directory tree on terminal
+3.Print the directory tree to a file
+4.Exit
+Select: 1
+Enter a directory name: /mnt/hgfs/current/CSE-4251
+The current directory is: /mnt/hgfs/current/CSE-4251
+1.Enter a directory name
+2.Print the directory tree on terminal
+3.Print the directory tree to a file
+4.Exit
+Select: 2
+|
+|------.git
+|------.gitignore
+|------lab_1
+|------lab_2
+|------lab_3
+|------lab_4
+|------requirements
+
+1.Enter a directory name
+2.Print the directory tree on terminal
+3.Print the directory tree to a file
+4.Exit
+Select: 3
+Save to: hello.txt
+1.Enter a directory name
+2.Print the directory tree on terminal
+3.Print the directory tree to a file
+4.Exit
+Select: 4
+]777;notify;Command completed;./dirtree_explorer.sh ~/Downloads/\]777;precmd\]0;fanfannnmn@fedora:/mnt/hgfs/current/CSE-4251/lab_4\]7;file://fedora/mnt/hgfs/current/CSE-4251/lab_4\[fanfannnmn@localhost lab_4]$ cat hello.txt
+]777;preexec\
+ |
+ |------.git
+ |------.gitignore
+ |------lab_1
+ |------lab_2
+ |------lab_3
+ |------lab_4
+ |------requirements
+
+]777;notify;Command completed;cat hello.txt \]777;precmd\]0;fanfannnmn@fedora:/mnt/hgfs/current/CSE-4251/lab_4\]7;file://fedora/mnt/hgfs/current/CSE-4251/lab_4\[fanfannnmn@localhost lab_4]$ exit
+]777;preexec\exit
+
+Script done on 2020-11-14 22:39:42-05:00 [COMMAND_EXIT_CODE="0"]

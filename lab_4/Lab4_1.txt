@@ -1,0 +1,64 @@
+Script started on 2020-11-14 22:16:17-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]777;notify;Command completed;dnf search vmware\]777;precmd\]0;fanfannnmn@fedora:/mnt/hgfs/current/CSE-4251/lab_4\]7;file://fedora/mnt/hgfs/current/CSE-4251/lab_4\[fanfannnmn@localhost lab_4]$ ./gr[Kuess_game.sh 
+]777;preexec\1. Run the guess game
+2. Exit
+Select: 1
+[H[2J[3Jguess the number
+32
+too large
+25
+too large
+22
+too large
+20
+too small
+21
+correct!
+using 5 rounds
+1. Run the guess game
+2. Exit
+Select: 1
+[H[2J[3Jguess the number
+30
+too large
+0 20
+too small
+25
+too small
+26
+too small
+27
+too small
+28
+too small
+29
+correct!
+using 7 rounds
+1. Run the guess game
+2. Exit
+Select: 1
+[H[2J[3Jguess the number
+30
+too large
+20
+too large
+10
+too large
+6 5
+too large
+4
+too large
+3
+too large
+2
+correct!
+using 7 rounds
+1. Run the guess game
+2. Exit
+Select: 1 2
+[H[2J[3JExiting the guessing game
+Your average of rounds is: 6.33
+]777;notify;Command completed;./guess_game.sh \]777;precmd\]0;fanfannnmn@fedora:/mnt/hgfs/current/CSE-4251/lab_4\]7;file://fedora/mnt/hgfs/current/CSE-4251/lab_4\[fanfannnmn@localhost lab_4]$ ext[Kit
+]777;preexec\exit
+
+Script done on 2020-11-14 22:17:03-05:00 [COMMAND_EXIT_CODE="0"]
