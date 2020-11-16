@@ -1,0 +1,3 @@
+1s/^/PERSONNEL FILE\n/
+/500$/d
+$a **END OF FILE**
